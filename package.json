@@ -1,0 +1,29 @@
+{
+  "name": "agora-landing",
+  "version": "0.0.0",
+  "description": "Simple landing page for portfolio",
+  "main": "web/html/index.html",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-uncss": "^0.4.2",
+    "time-grunt": "^1.2.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.4",
+    "font-awesome": "^4.3.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.3",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-newer": "^1.1.1",
+    "grunt-processhtml": "^0.3.6",
+    "grunt-uncss": "^0.4.2",
+    "jit-grunt": "^0.9.1",
+    "jquery": "^2.1.4"
+  },
+  "author": "Przemysław Gosek",
+  "license": "MIT"
+}

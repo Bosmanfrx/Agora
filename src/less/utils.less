@@ -1,0 +1,55 @@
+// General
+
+@width: 900px;
+
+// Colors
+
+@header-background: #52b9d9;
+
+@button-color: #00b3a8;
+@button-color-hover: darken(@button-color, 6.5%);
+@button-color-focus: #dadada;
+
+@login-color: #c8c8c8;
+@login-strip-color: #a7a7a7;
+@board-color: #f3f3f3;
+@board-text: #7c7c7c;
+
+//Fonts
+
+@font-face {
+  font-family: "semi-bold italic";
+  src: url("../fonts/SourceSansPro-SemiboldItalic.ttf");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/SourceSansPro-Bold.otf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "light";
+  src: url("../fonts/SourceSansPro-Light.otf");
+}
+
+// Z-index
+
+@z1: 100;
+@z2: 200;
+@z3: 300;
+
+// Mixins
+
+.bold {
+  font-family: "bold", serif;
+}
+
+.page {
+  max-width: @width;
+  margin: 0 auto;
+}

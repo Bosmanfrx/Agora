@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Agora</title>
+  <!-- build:css ../css/main.min.css -->
+  <link rel="stylesheet" href="../css/main.css">
+  <!-- /build -->
+</head>
+<body>
+<header>
+  <div class="header-constraints clearfix">
+    <div class="logo pull-left">
+      <a href="index.html"><img src="../images/logo.png"></a>
+    </div>
+    <nav class="pull-right">
+      <div class="dropdown">
+        <div class="dropdown-menu dropdown-menu-right menu-register">
+          <form autocomplete="off" method="post" action="">
+            <div class="form-inline clearfix">
+              <input class="form-control register-name pull-left" type="text" placeholder="FIRST NAME">
+              <input class="form-control register-name pull-right" type="text" placeholder="SECOND NAME">
+            </div>
+            <input class="form-control" type="email" placeholder="E-MAIL ADDRESS">
+            <input class="form-control" type="text" placeholder="USERNAME">
+            <button class="btn btn-submit" type="submit">Create Account
+              <span class="glyphicon glyphicon-chevron-right pull-right"></span></button>
+          </form>
+        </div>
+        <button type="button" class="dropdown-toggle btn btn-agora" data-toggle="dropdown" aria-expanded="true">Register
+        </button>
+      </div>
+      <div class="dropdown">
+        <div class="dropdown-menu dropdown-menu-right">
+          <div class="signup">
+            <button class="btn signup-button">SignUp with LinkedIn</button>
+            <button class="btn signup-button">SignUp with Facebook</button>
+          </div>
+          <div class="login">
+            <form autocomplete="on" method="post" action="">
+              <input class="form-control" type="text" placeholder="USERNAME">
+
+              <div class="form-inline">
+                <input class="form-control login-password" type="password" placeholder="PASSWORD">
+                <button class="btn btn-agora pull-right" type="submit">SignUp</button>
+              </div>
+              <div class="login-checkbox">
+                <label><input type="checkbox"> Keep me logged in</label>
+                <a class="pull-right" href="#">Forgot password?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <button class="dropdown-toggle btn btn-agora" data-toggle="dropdown" aria-expanded="true">Login</button>
+      </div>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <div class="owl">
+    <img src="../images/owl.png">
+
+    <div class="owl-text">
+      <span>Welcome to the first fully crowdsourced business!</span>
+    </div>
+  </div>
+  <div class="video">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jmXSA_uD28A" frameborder="0"
+            allowfullscreen></iframe>
+  </div>
+  <div class="content clearfix">
+    <div class="content-board pull-left">
+      <div class="upper-board">
+        <img class="screw-left" src="../images/screw.png">
+        <img class="screw-right" src="../images/screw.png">
+        <button class="btn signup-button">SignUp with LinkedIn</button>
+        <button class="btn signup-button">SignUp with Facebook</button>
+        <div class="board-or">
+          <span class="dots"></span>
+          <span class="text">or</span>
+          <span class="dots"></span>
+        </div>
+        <div class="board-register">
+          <form autocomplete="off" method="post" action="">
+            <div class="form-inline clearfix">
+              <input class="form-control register-name pull-left" type="text" placeholder="FIRST NAME">
+              <input class="form-control register-name pull-right" type="text" placeholder="SECOND NAME">
+            </div>
+            <input class="form-control" type="email" placeholder="E-MAIL ADDRESS">
+            <input class="form-control" type="password" placeholder="PASSWORD">
+
+            <p>
+              By creating an account you agree to our <a class="terms" href="#">terms and conditions</a>
+            </p>
+            <button class="btn btn-submit" type="submit">Create Account
+              <span class="glyphicon glyphicon-chevron-right pull-right"></span></button>
+          </form>
+        </div>
+      </div>
+      <div class="lower-board clearfix">
+        <a class="pull-right" href="#">
+          <button class="btn btn-agora">Login</button>
+        </a>
+        <span class="pull-right text">Own an account?</span>
+      </div>
+    </div>
+
+    <div class="content-learn pull-right">
+      <h2 class="learn-title">Learn more</h2>
+
+      <p class="learn-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dui in massa tempor, ut bibendum odio
+        facilisis. Nunc id ante at ex aliquam scelerisque. Fusce blandit purus sit amet interdum tempus. Duis erat dui,
+        rhoncus sit amet dapibus non, auctor interdum nisl. Praesent condimentum eget ex ac commodo. Pellentesque ac
+        felis laoreet, aliquam turpis ut, efficitur ipsum. Quisque placerat.
+
+      <p class="learn-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus a dolor sed rhoncus. Nulla rutrum aliquam
+        ante
+        vel dapibus. Aenean efficitur, velit a luctus.
+      </p>
+
+      <p class="contact">
+        <a href="mailto:contact@project.com">contact@project.com</a>
+      </p>
+
+      <div class="social-buttons">
+        <a class="social-link" href="https://facebook.com"><i class="fa fa-facebook-official"></i></a>
+        <a class="social-link" href="https://linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+        <a class="social-link" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+        <a class="social-link" href="https://youtube.com"><i class="fa fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <!-- build:js ../scripts/main.min.js -->
+  <script src="../scripts/jquery.js"></script>
+  <script src="../scripts/dropdown.js"></script>
+  <!-- /build -->
+</footer>
+</body>
+</html>
