@@ -223,7 +223,7 @@ form > .form-control {
 .social-buttons {
   margin-top: 30px;
   height: 100px;
-  display: flex;
+  .flexbox;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
@@ -259,25 +259,21 @@ form > .form-control {
   > .board-or {
     margin-top: 15px;
     text-align: center;
-    display: flex;
+    width: 100%;
+    font-size: 1.1em;
     > .text {
-      font-size: 1.1em;
       .bold;
+      padding: 0 2.5%;
       display: inline-block;
-      padding: 0 10px;
-      flex: 1 0 auto;
+      width: 5%;
     }
     > .dots {
-      flex: 0 1 auto;
-    }
-    > .dots::before {
-      display: block;
+      text-overflow: clip;
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: clip;
-      content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . "
+      width: 40%;
+      display: inline-block;
     }
-
   }
 }
 
