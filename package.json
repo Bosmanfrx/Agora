@@ -1,6 +1,6 @@
 {
   "name": "agora-landing",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple landing page for portfolio",
   "main": "web/html/index.html",
   "dependencies": {
@@ -25,5 +25,13 @@
     "jquery": "^2.1.4"
   },
   "author": "Przemysław Gosek",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bosmanfrx/Agora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bosmanfrx/Agora/issues"
+  },
+  "homepage": "https://github.com/Bosmanfrx/Agora#readme"
 }
